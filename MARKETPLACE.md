@@ -7,9 +7,10 @@
 - **License:** Apache License 2.0
 - **Compatibility:** IntelliJ Platform 2026.2 and newer; verified against PyCharm 2026.2.3 and PyCharm 2026.3 EAP
 - **Price:** Free
-- **Vendor public email:** Awaiting owner input
+- **Vendor public email:** niteeshb7@gmail.com
 - **Vendor website:** https://github.com/niteeshb7
-- **Source link:** Awaiting public repository
+- **Vendor bio:** Java, React, Python Developer
+- **Source link:** https://github.com/niteeshb7/cli-agent-bridge
 
 ## Short description
 
@@ -29,4 +30,4 @@ Initial preview: standalone local-CLI chat with model, effort, active editor con
 
 ## Release gate
 
-The owner must provide a public vendor email, publish the source repository, create or select their JetBrains Marketplace vendor profile, and personally accept the Marketplace Developer Agreement. The installable ZIP is in `build/distributions/`.
+Push the source repository, create or select the JetBrains Marketplace vendor profile, and have the owner personally accept the Marketplace Developer Agreement. The installable ZIP is in `build/distributions/`.

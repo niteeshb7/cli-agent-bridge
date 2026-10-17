@@ -2,7 +2,7 @@
     <id>dev.niteesh.cliagentbridge</id>
     <name>CLI Agent Bridge</name>
     <version>0.1.0</version>
-    <vendor url="https://github.com/niteeshb7">Niteesh Bhargava</vendor>
+    <vendor email="niteeshb7@gmail.com" url="https://github.com/niteeshb7">Niteesh Bhargava</vendor>
     <description><![CDATA[
         <p>A dedicated IDE chat window for a locally installed Claude Code CLI.</p>
         <p>Uses the account already signed in with the CLI. Includes model and effort controls,
