@@ -1,0 +1,20 @@
+<idea-plugin>
+    <id>dev.niteesh.cliagentbridge</id>
+    <name>CLI Agent Bridge</name>
+    <version>0.1.0</version>
+    <vendor url="https://github.com/niteeshb7">Niteesh Bhargava</vendor>
+    <description><![CDATA[
+        <p>A dedicated IDE chat window for a locally installed Claude Code CLI.</p>
+        <p>Uses the account already signed in with the CLI. Includes model and effort controls,
+        active-editor context, session continuity, and an explicit edit mode.</p>
+        <p>Requires Claude Code CLI. This independent plugin is not affiliated with Anthropic or JetBrains.</p>
+    ]]></description>
+    <change-notes><![CDATA[Initial preview release with local CLI chat and editor context.]]></change-notes>
+    <idea-version since-build="262"/>
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <toolWindow id="CLI Agent" anchor="right" icon="/icons/cliAgent.svg" factoryClass="dev.niteesh.cliagentbridge.ChatToolWindowFactory"/>
+    </extensions>
+</idea-plugin>
