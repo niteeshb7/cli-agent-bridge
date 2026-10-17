@@ -1,6 +1,6 @@
-# CLI Agent Bridge
+# Claude Chat
 
-A standalone chat tool window for JetBrains IDEs that runs your locally installed Claude Code CLI. It does not require JetBrains AI Assistant or an Anthropic API key. The CLI uses whatever account you have authenticated with `claude auth login`, including an eligible Claude subscription.
+A standalone chat tool window for JetBrains IDEs that runs your locally installed Claude Code CLI. I built it because I wanted a dedicated GUI for my Claude CLI workflow in JetBrains IDEs and could not find one that met my needs. It does not require JetBrains AI Assistant or an Anthropic API key. The CLI uses whatever account you have authenticated with `claude auth login`, including an eligible Claude subscription.
 
 This is an independent community plugin by Niteesh Bhargava. It is not affiliated with Anthropic or JetBrains.
 
@@ -12,7 +12,7 @@ This is an independent community plugin by Niteesh Bhargava. It is not affiliate
 ## Use
 
 1. Install the plugin ZIP in **Settings → Plugins → Install Plugin from Disk**.
-2. Open the **CLI Agent** tool window.
+2. Open the **Claude Chat** tool window.
 3. Set the Claude CLI path if it was not found automatically.
 4. Choose a model and effort level, then send a message.
 5. Select **Include active editor** when you want to send the active file and any selection as context.

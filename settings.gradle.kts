@@ -1,6 +1,6 @@
 import org.jetbrains.intellij.platform.gradle.extensions.intellijPlatform
 
-rootProject.name = "CLI Agent Bridge"
+rootProject.name = "Claude Chat"
 
 pluginManagement {
     plugins {

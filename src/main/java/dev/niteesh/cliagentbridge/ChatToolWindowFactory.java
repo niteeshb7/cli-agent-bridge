@@ -82,7 +82,7 @@ public final class ChatToolWindowFactory implements ToolWindowFactory {
             transcript.setLineWrap(true);
             transcript.setWrapStyleWord(true);
             transcript.setFont(new Font(Font.MONOSPACED, Font.PLAIN, 12));
-            transcript.setText("CLI Agent Bridge — sign in with `claude auth login` if needed.\n\n");
+            transcript.setText("Claude Chat — sign in with `claude auth login` if needed.\n\n");
             add(new JScrollPane(transcript), BorderLayout.CENTER);
 
             input.setLineWrap(true);
